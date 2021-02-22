@@ -1,17 +1,21 @@
-import React from 'react'
-import './Home.css'
+import React from 'react';
+import './Home.css';
 import Product from "./Product";
 
-function Home() {
-    return (
+
+function Home()  {
+ 
+ 
+  return (
     <div className="home">
-        <div className="home__container">
-            <img
+       <div className="home__container" >
+       <img
           className="home__image"
-          src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg" alt=""
+          src="https://images-na.ssl-images-amazon.com/images/G/15/CA-hq/2021/img/Consumer_Electronics/XCM_Manual_1304922_1560048_CA_ca_ce_business_3653451_1500x600_1X_en_CA._CB662528803_.jpg"
+          alt=""
         />
 
-        <div className = 'home__row'>
+<div className = 'home__row'>
           <Product 
            id="12321341"
            title="Chezmoi Collection Napa 7-Piece Luxury Leaves Scroll Embroidery Bedding Comforter Set (Queen, Teal/Gray/Black) "
@@ -61,10 +65,18 @@ function Home() {
          image="https://images-na.ssl-images-amazon.com/images/I/91-hWcNu2yL._AC_SX355_.jpg" alt="Samsung LC34J791WTNXZA 34&amp;quot; WQHD 100Hz WQHD Curved Monitor with Thunderbolt"        />  
         </div>
 
-    </div>
-            
- </div>
-    );
+
+
+       </div>
+  
+  
+  </div>
+ 
+         
+    
+
+  )
+  
 }
 
 export default Home
