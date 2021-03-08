@@ -14,7 +14,7 @@ import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
 
 const promise = loadStripe(
-  "pk_test_51IMd0wHhHoX1QTE16xsvG9Frq8Npva9qpP1AbU0BKaAlKDwB00hYxIyMzfqT3YMsHCnuI2MNtsUvHGtpn4VDVtQQ002wNbXYuj"
+  ""
 );
 
 
